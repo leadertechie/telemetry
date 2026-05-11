@@ -1,0 +1,7 @@
+next-version: 0.0.1
+mode: Mainline
+branches:
+  main:
+    regex: ^main$
+    increment: Patch
+    tag: alpha
