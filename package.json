@@ -1,0 +1,44 @@
+{
+  "name": "@leadertechie/telemetry",
+  "version": "0.1.0-alpha.1",
+  "description": "OTEL-inspired telemetry facade with pluggable adapters. Log to Cloudflare runtime, Sentry, or custom backends.",
+  "type": "module",
+  "main": "dist/telemetry.js",
+  "module": "dist/telemetry.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "telemetry",
+    "logging",
+    "facade",
+    "cloudflare",
+    "sentry",
+    "observability",
+    "otel",
+    "opentelemetry"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vite": "^5.4.0",
+    "vite-plugin-dts": "^5.0.0",
+    "vitest": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leadertechie/telemetry.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
